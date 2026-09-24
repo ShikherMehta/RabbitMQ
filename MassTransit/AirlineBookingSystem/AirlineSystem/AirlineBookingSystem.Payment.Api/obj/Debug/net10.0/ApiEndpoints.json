@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "AirlineBookingSystem.Payment.Api.Controllers.PaymentController",
+    "Method": "ProcessPayment",
+    "RelativePath": "api/payments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AirlineBookingSystem.Payment.Application.Command.ProcessPaymentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirlineBookingSystem.Payment.Api.Controllers.PaymentController",
+    "Method": "RefundPayment",
+    "RelativePath": "api/payments/refun/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

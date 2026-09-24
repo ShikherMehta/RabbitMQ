@@ -1,0 +1,15 @@
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\bin\Debug\net10.0\AirlineBookingSystem.Flights.Application.deps.json
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\bin\Debug\net10.0\AirlineBookingSystem.Flights.Application.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\bin\Debug\net10.0\AirlineBookingSystem.Flights.Application.pdb
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\bin\Debug\net10.0\AIrlineBookingSystem.Flights.Core.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\bin\Debug\net10.0\AIrlineBookingSystem.Flights.Core.pdb
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.csproj.AssemblyReference.cache
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.AssemblyInfoInputs.cache
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.AssemblyInfo.cs
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.csproj.CoreCompileInputs.cache
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineB.1559686E.Up2Date
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\refint\AirlineBookingSystem.Flights.Application.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\AirlineBookingSystem.Flights.Application.pdb
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.Flights.Application\obj\Debug\net10.0\ref\AirlineBookingSystem.Flights.Application.dll

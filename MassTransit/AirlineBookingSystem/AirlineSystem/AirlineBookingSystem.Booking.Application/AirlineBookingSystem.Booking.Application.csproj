@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="9.2.2" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="9.2.2" />
+    <PackageReference Include="MediatR" Version="14.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirlineBookingSystem.Booking.Core\AirlineBookingSystem.Booking.Core.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.BuildingBlocks\AirlineBookingSystem.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.Payment.Application\AirlineBookingSystem.Payment.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Consumer\" />
+  </ItemGroup>
+
+</Project>

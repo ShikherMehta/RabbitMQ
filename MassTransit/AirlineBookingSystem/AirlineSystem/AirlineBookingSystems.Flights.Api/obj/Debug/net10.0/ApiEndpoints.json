@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "AirlineBookingSystems.Flights.Api.Controllers.FlightsController",
+    "Method": "GetFlights",
+    "RelativePath": "api/flights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirlineBookingSystems.Flights.Api.Controllers.FlightsController",
+    "Method": "AddFlights",
+    "RelativePath": "api/flights",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "AirlineBookingSystem.Flights.Application.Commands.CreateFlighCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirlineBookingSystems.Flights.Api.Controllers.FlightsController",
+    "Method": "DeleteFlight",
+    "RelativePath": "api/flights/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

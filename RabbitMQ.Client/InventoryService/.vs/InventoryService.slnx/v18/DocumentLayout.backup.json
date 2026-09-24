@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|d:\\rabbitmq\\rabbitmq.client\\inventoryservice\\inventoryservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|d:\\rabbitmq\\rabbitmq.client\\inventoryservice\\inventoryservice\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|d:\\rabbitmq\\rabbitmq.client\\inventoryservice\\inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|d:\\rabbitmq\\rabbitmq.client\\inventoryservice\\inventoryservice\\model\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0AF33-A30A-4333-9A46-40E4C2269F99}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\model\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Worker.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Worker.cs",
+              "ToolTip": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Worker.cs",
+              "RelativeToolTip": "InventoryService\\Worker.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAD4v4wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T09:34:41.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Data\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Data\\InventoryDbContext.cs",
+              "ToolTip": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Data\\InventoryDbContext.cs",
+              "RelativeToolTip": "InventoryService\\Data\\InventoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T12:44:43.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Model\\Inventory.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Model\\Inventory.cs",
+              "ToolTip": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Model\\Inventory.cs",
+              "RelativeToolTip": "InventoryService\\Model\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T12:44:38.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Program.cs",
+              "ToolTip": "D:\\RabbitMQ\\RabbitMQ.Client\\InventoryService\\InventoryService\\Program.cs",
+              "RelativeToolTip": "InventoryService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T12:44:37.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

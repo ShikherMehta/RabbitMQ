@@ -1,0 +1,12 @@
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\bin\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.deps.json
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\bin\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\bin\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.pdb
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.AssemblyInfoInputs.cache
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.AssemblyInfo.cs
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.csproj.CoreCompileInputs.cache
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\refint\AirlineBookingSystem.BuildingBlocks.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineBookingSystem.BuildingBlocks.pdb
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\ref\AirlineBookingSystem.BuildingBlocks.dll
+D:\RabbitMQ\MassTransit\AirlineBookingSystem\AirlineSystem\AirlineBookingSystem.BuildingBlocks\obj\Debug\net10.0\AirlineB.7D0BCB85.Up2Date

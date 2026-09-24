@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AirlineBookingSystem.Booking.Api\\AirlineBookingSystem.Booking.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlineBookingSystem.Booking.Application\\AirlineBookingSystem.Booking.Application.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlineBookingSystem.Booking.Core\\AirlineBookingSystem.Booking.Core.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlineSystem.Booking.Infrastructure\\AirlineSystem.Booking.Infrastructure.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlineBookingSystems.Flights.Api\\AirlineBookingSystems.Flights.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlinebookingSystem.Notification.Api\\AirlinebookingSystem.Notification.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AirlineBookingSystem.Payment.Api\\AirlineBookingSystem.Payment.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

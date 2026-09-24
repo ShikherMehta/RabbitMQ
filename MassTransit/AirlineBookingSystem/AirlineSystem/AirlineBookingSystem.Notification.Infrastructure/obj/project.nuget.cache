@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eY1eqC8iAP0=",
+  "success": true,
+  "projectFilePath": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Notification.Infrastructure\\AirlineBookingSystem.Notification.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shikh\\.nuget\\packages\\dapper\\2.1.86\\dapper.2.1.86.nupkg.sha512"
+  ],
+  "logs": []
+}

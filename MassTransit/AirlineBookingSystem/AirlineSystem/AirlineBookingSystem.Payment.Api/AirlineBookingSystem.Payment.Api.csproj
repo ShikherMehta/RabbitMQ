@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="9.2.2" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="9.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirlineBookingSystem.Booking.Application\AirlineBookingSystem.Booking.Application.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.BuildingBlocks\AirlineBookingSystem.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.Payment.Application\AirlineBookingSystem.Payment.Application.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.Payment.Core\AirlineBookingSystem.Payment.Core.csproj" />
+    <ProjectReference Include="..\AirlineBookingSystem.Payment.Infrastructure\AirlineBookingSystem.Payment.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

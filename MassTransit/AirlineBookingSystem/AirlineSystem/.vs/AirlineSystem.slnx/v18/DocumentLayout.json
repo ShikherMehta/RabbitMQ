@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61F74482-5F9C-7ACB-4F0B-D014840AA72C}|AirlineBookingSystem.Notification.Application\\AirlineBookingSystem.Notification.Application.csproj|d:\\rabbitmq\\masstransit\\airlinebookingsystem\\airlinesystem\\airlinebookingsystem.notification.application\\handlers\\sendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F74482-5F9C-7ACB-4F0B-D014840AA72C}|AirlineBookingSystem.Notification.Application\\AirlineBookingSystem.Notification.Application.csproj|solutionrelative:airlinebookingsystem.notification.application\\handlers\\sendnotificationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B408DC9-1910-9466-3B43-6854C16CA9C5}|AirlineBookingSystem.Booking.Api\\AirlineBookingSystem.Booking.Api.csproj|d:\\rabbitmq\\masstransit\\airlinebookingsystem\\airlinesystem\\airlinebookingsystem.booking.api\\consumers\\notificationeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B408DC9-1910-9466-3B43-6854C16CA9C5}|AirlineBookingSystem.Booking.Api\\AirlineBookingSystem.Booking.Api.csproj|solutionrelative:airlinebookingsystem.booking.api\\consumers\\notificationeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F173905C-8187-4C2A-AFBE-07B3B5AAFF12}|AirlineBookingSystem.BuildingBlocks\\AirlineBookingSystem.BuildingBlocks.csproj|d:\\rabbitmq\\masstransit\\airlinebookingsystem\\airlinesystem\\airlinebookingsystem.buildingblocks\\contracts\\flightbookedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F173905C-8187-4C2A-AFBE-07B3B5AAFF12}|AirlineBookingSystem.BuildingBlocks\\AirlineBookingSystem.BuildingBlocks.csproj|solutionrelative:airlinebookingsystem.buildingblocks\\contracts\\flightbookedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729F9278-55F3-927C-F6D8-5E35DE9FBD5A}|AirlineBookingSystem.Booking.Application\\AirlineBookingSystem.Booking.Application.csproj|d:\\rabbitmq\\masstransit\\airlinebookingsystem\\airlinesystem\\airlinebookingsystem.booking.application\\commands\\createbookinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729F9278-55F3-927C-F6D8-5E35DE9FBD5A}|AirlineBookingSystem.Booking.Application\\AirlineBookingSystem.Booking.Application.csproj|solutionrelative:airlinebookingsystem.booking.application\\commands\\createbookinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF9B1F8-04AF-DF2B-6CCE-3BC38E716941}|AirlineSystem.Booking.Infrastructure\\AirlineSystem.Booking.Infrastructure.csproj|d:\\rabbitmq\\masstransit\\airlinebookingsystem\\airlinesystem\\airlinesystem.booking.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCF9B1F8-04AF-DF2B-6CCE-3BC38E716941}|AirlineSystem.Booking.Infrastructure\\AirlineSystem.Booking.Infrastructure.csproj|solutionrelative:airlinesystem.booking.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationEventConsumer.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Booking.Api\\Consumers\\NotificationEventConsumer.cs",
+              "RelativeDocumentMoniker": "AirlineBookingSystem.Booking.Api\\Consumers\\NotificationEventConsumer.cs",
+              "ToolTip": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Booking.Api\\Consumers\\NotificationEventConsumer.cs",
+              "RelativeToolTip": "AirlineBookingSystem.Booking.Api\\Consumers\\NotificationEventConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T11:34:33.891Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendNotificationHandler.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Notification.Application\\Handlers\\SendNotificationHandler.cs",
+              "RelativeDocumentMoniker": "AirlineBookingSystem.Notification.Application\\Handlers\\SendNotificationHandler.cs",
+              "ToolTip": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Notification.Application\\Handlers\\SendNotificationHandler.cs",
+              "RelativeToolTip": "AirlineBookingSystem.Notification.Application\\Handlers\\SendNotificationHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T12:26:03.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightBookedEvent.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.BuildingBlocks\\Contracts\\FlightBookedEvent.cs",
+              "RelativeDocumentMoniker": "AirlineBookingSystem.BuildingBlocks\\Contracts\\FlightBookedEvent.cs",
+              "ToolTip": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.BuildingBlocks\\Contracts\\FlightBookedEvent.cs",
+              "RelativeToolTip": "AirlineBookingSystem.BuildingBlocks\\Contracts\\FlightBookedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T15:19:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBookingHandler.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Booking.Application\\Commands\\CreateBookingHandler.cs",
+              "RelativeDocumentMoniker": "AirlineBookingSystem.Booking.Application\\Commands\\CreateBookingHandler.cs",
+              "ToolTip": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineBookingSystem.Booking.Application\\Commands\\CreateBookingHandler.cs",
+              "RelativeToolTip": "AirlineBookingSystem.Booking.Application\\Commands\\CreateBookingHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA4wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T15:18:06.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineSystem.Booking.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "AirlineSystem.Booking.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\RabbitMQ\\MassTransit\\AirlineBookingSystem\\AirlineSystem\\AirlineSystem.Booking.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "AirlineSystem.Booking.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T15:17:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
