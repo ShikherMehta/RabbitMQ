@@ -19,3 +19,14 @@ rather than endlessly requeueing a message that will always fail.
 Key interview point:
 
 requeue:false does not mean "requeue somewhere else." It means RabbitMQ will not return the message to the original queue. With a DLX configured, the message can be dead-lettered; otherwise it is discarded.
+Why is it called a delivery?
+
+Because RabbitMQ doesn't just think:
+
+"Message B exists."
+
+It thinks:
+
+"I delivered this particular message to this consumer on this channel."
+
+The deliveryTag identifies that delivery.
