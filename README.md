@@ -29,4 +29,11 @@ It thinks:
 
 "I delivered this particular message to this consumer on this channel."
 
-The deliveryTag identifies that delivery.
+The deliveryTag identifies that delivery. 
+autoAck: true
+    → RabbitMQ ACKs automatically
+    → Don't use BasicAckAsync()
+
+autoAck: false
+    → You control ACK
+    → Use BasicAckAsync() after successful processing
