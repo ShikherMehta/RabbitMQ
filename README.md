@@ -37,3 +37,11 @@ autoAck: true
 autoAck: false
     → You control ACK
     → Use BasicAckAsync() after successful processing
+
+    autoAck:false gives the consumer control over when a message is acknowledged, which is generally appropriate for business-critical processing.
+
+autoAck:true can still be useful when message loss is acceptable and you don't need processing-level acknowledgement.
+
+Interview answer
+
+For business-critical messages, I generally use autoAck:false, process the message first, and ACK only after successful processing. On failure, I use NACK/retry and eventually DLQ as appropriate.
