@@ -14,3 +14,8 @@ For production systems, you normally combine this with:
 ACK → Retry → NACK → DLQ
 
 rather than endlessly requeueing a message that will always fail.
+
+
+Key interview point:
+
+requeue:false does not mean "requeue somewhere else." It means RabbitMQ will not return the message to the original queue. With a DLX configured, the message can be dead-lettered; otherwise it is discarded.
