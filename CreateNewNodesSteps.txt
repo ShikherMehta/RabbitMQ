@@ -1,2 +1,73 @@
-Initial Setup
+Check Existing Erlang Cookie
+
+1. Existing RabbitMQ docker container:
+
+RabbitMQ nodes can join a cluster only when they share the same Erlang cookie.
+Retrieve the cookie from the existing node:
+
+docker exec rabbitmq cat /var/lib/rabbitmq/.erlang.cookie
+
+
+2 - Create Docker Network
+Create a dedicated Docker network for RabbitMQ clustering:
+
+docker network create rabbit-cluster
+
+Connect existing RabbitMQ container:
+
+docker network connect rabbit-cluster rabbitmq
+
+Verify:
+ 
+
+docker network inspect rabbit-cluster
+
+3 - Create New RabbitMQ Node
+
+docker run -d --name rabbitmq2 --hostname rabbitmq2 --network rabbit-cluster -e RABBITMQ_ERLANG_COOKIE=JWDKYMMJWVMPZEKDZHIQ -p 5673:5672 -p 15673:15672 rabbitmq:3-management
+
+4 -  Join Node to Cluster
+
+docker exec -it rabbitmq2 bash
+
+
+rabbitmqctl stop_app
+
+rabbitmqctl join_cluster rabbit@ce7b419c9c9d
+
+rabbitmqctl start_app
+
+Verification
+
+
+docker exec rabbitmq rabbitmqctl cluster_status
+
+Why we got an error while creating a new node?
+The error {:erpc, :noconnection} was caused by a cookie mismatch.
+
+Reason
+RabbitMQ cluster nodes communicate using Erlang distribution. Before a node can join a cluster, the nodes must authenticate using the same Erlang cookie.
+
+
+Existing node cookie: 
+JWDKYMMJWVMPZEKDZHIQ
+
+New node cookie:
+COOKIE_VALUE
+
+Because the cookies were different, rabbitmq2 could not establish a trusted Erlang connection with rabbit@ce7b419c9c9d.
+
+As a result, RabbitMQ failed the feature flag compatibility check and returned:
+
+{erpc, noconnection}
+
+How We Identified It (Error)
+
+Checked the cookie on the existing node:
+
+docker exec rabbitmq cat /var/lib/rabbitmq/.erlang.cookie
+
+Suppose I got the cookies value = JWDKYMMJWVMPZEKDZHIQ . Then replace the cookie values with "JWDKYMMJWVMPZEKDZHIQ ".
+
+docker run -d --name rabbitmq2 --hostname rabbitmq2 --network rabbit-cluster -e RABBITMQ_ERLANG_COOKIE=JWDKYMMJWVMPZEKDZHIQ -p 5673:5672 -p 15673:15672 rabbitmq:3-management
 
