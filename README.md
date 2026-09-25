@@ -490,6 +490,16 @@ Answer:
 
 
 
+The important point is:
+
+MassTransit's _error queue is not automatically the same thing as your RabbitMQ DLQ.
+
+If your interview question is "How does MassTransit handle dead-letter messages?", the answer you generally want is:
+
+MassTransit moves messages that cannot be successfully consumed to an error endpoint after the configured retry/redelivery policies are exhausted. If broker-level dead lettering is specifically required, RabbitMQ DLX/DLQ can be configured separately.
+
+
+
 
 
 
